@@ -1,0 +1,26 @@
+Anatomy of a class
+
+	Data -> fields
+	Behaviour -> methods / functions
+
+Naming conventions
+	Pascal case > First letter of every word should be upper case (SetName, Getname, etc...)
+		used for naming classes and methods
+	Camel Case > Firts word lower case and subsequent words should be upper case (setName, getName, etc...)
+		used for naming fields and variables
+		private fields should start with "_"
+
+OOP Major concepts:
+	-Encapsulation / Information Hiding
+	-Inheritance
+	-Polymorphism
+   
+   Encapsulation:
+      -Define fields as private
+	Fields are implementations detail we should hide from the outside
+      -Provide getter/setter methods as public	
+        With getters and setters we can have logic when accessing fields (like null checking in fields that cannot be null)
+
+4.Properties -> A class member that emcapsulate a getter and a setter for accessing a field
+	used to create getter/setter with less code
+	Pascal Case for naming (exept on private fields)

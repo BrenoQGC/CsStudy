@@ -1,0 +1,10 @@
+Visual Studio:
+
+Snippets
+Console.WriteLine => CW
+Constructor => Ctor
+public TYPE Type { get; set; } => Prop 
+static void Main(string[] args) => svm
+
+Shortcuts:
+Change tab => ctrl+tab
